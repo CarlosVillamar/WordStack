@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/assets"><file name="words.txt" path="/Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/assets/words.txt"/></source><source path="/Users/user/Desktop/AndroidClasses/WordStackGame/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/user/Desktop/AndroidClasses/WordStackGame/app/src/debug/assets"/></dataSet></merger>
