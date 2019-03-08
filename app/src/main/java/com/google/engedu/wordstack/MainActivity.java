@@ -15,6 +15,7 @@
 
 package com.google.engedu.wordstack;
 
+import android.app.Activity;
 import android.content.ClipData;
 import android.content.res.AssetManager;
 import android.graphics.Color;
@@ -28,6 +29,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,7 +44,7 @@ import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int WORD_LENGTH = 5;
+    private static final int WORD_LENGTH = 4;
     public static final int LIGHT_BLUE = Color.rgb(176, 200, 255);
     public static final int LIGHT_GREEN = Color.rgb(200, 255, 200);
     private ArrayList<String> words = new ArrayList<>();
@@ -52,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
     ViewGroup word1Layout, word2Layout;
     Stack<LetterTile> placedTiles = new Stack<>();
     View word1LinearLayout, word2LinearLayout;
+    Activity activity = getParent();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
             String line = null;
             while ((line = in.readLine()) != null) {
-                String word = line.trim();
+                String word = line;
                 if (word.length() == WORD_LENGTH) {
                     words.add(word);
                 }
@@ -74,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(this, "Could not load dictionary", Toast.LENGTH_LONG);
             toast.show();
         }
+
         LinearLayout verticalLayout = (LinearLayout) findViewById(R.id.vertical_layout);
         stackedLayout = new StackedLayout(this);
         verticalLayout.addView(stackedLayout, 3);
@@ -86,11 +91,18 @@ public class MainActivity extends AppCompatActivity {
         //word2LinearLayout.setOnTouchListener(new TouchListener());
         word2LinearLayout.setOnDragListener(new DragListener());
 
+        if(activity == null){
+            verticalLayout.setVisibility(View.generateViewId());
+
+        }
+
 
     }
 
     private class TouchListener implements View.OnTouchListener {
-
+  /**
+   * Class not currently in use
+   * */
         @Override
         public boolean onTouch(View v, MotionEvent event) {
             if (event.getAction() == MotionEvent.ACTION_DOWN && !stackedLayout.empty()) {
@@ -142,19 +154,13 @@ public class MainActivity extends AppCompatActivity {
                     LetterTile tile = (LetterTile) event.getLocalState();
                     tile.moveToViewGroup((ViewGroup) v);
 
-                    //loop added to a copy of the word to be used to compare them in winConditon method
-                    if (v == word1LinearLayout) {
-                        dragWord1 += word1;
-                    } else dragWord2 += word2;
-
 
                     if (stackedLayout.empty()) {
                         /*TextView messageBox = (TextView) findViewById(R.id.message_box);
                         messageBox.setText(word1 + " " + word2);*/
-                        winCondition();
 
+                        winCondition(v);
                     }
-                    placedTiles.push(tile);
 
                     return true;
             }
@@ -187,6 +193,8 @@ public class MainActivity extends AppCompatActivity {
             word2 = words.get(random.nextInt(words.size()));
         } while (word1 == word2);
 
+        Log.d("start game", "onCreate: "+word1 + " "+word2);
+
         //counters are needed for each word to compare word length
         int word1Counter = 0;
         int word2Counter = 0;
@@ -195,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
       depending on the condition met that the word that meets the condition is in position to become scrambled
       */
 
-        while (word1Counter < WORD_LENGTH || word1Counter < WORD_LENGTH) {
+        while (word1Counter < WORD_LENGTH || word2Counter < WORD_LENGTH) {
             if (random.nextInt(2) == 0 && word1Counter < word1.length()) {
                 wordScrambled += word1.charAt(word1Counter);
                 word1Counter++;
@@ -205,48 +213,59 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        //Toast.makeText(getBaseContext(), "Scrambled Word", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(), "Scrambled Word " + wordScrambled, Toast.LENGTH_SHORT).show();
         //messageBox.setText(wordScrambled);
 
-        for (int i = wordScrambled.length() - 1; i > 0.; i--) {
+        for (int i = 0; i<= wordScrambled.length()-1;i++) {
             //Allows for each character with in the scrambled word to be placed in a stack one
             // character at a time
             stackedLayout.push(new LetterTile(this, wordScrambled.charAt(i)));
-            Log.d("StartGame", String.valueOf(wordScrambled.charAt(i)));
+            Log.d("StartGame loop", String.valueOf(wordScrambled.charAt(i)));
         }
-        Toast.makeText(getBaseContext(), "Scrambled Word Selected", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getBaseContext(), "Scrambled Word Selected", Toast.LENGTH_SHORT).show();
 
         return true;
     }
 
     public boolean onUndo(View view) {
+        Log.d("undo", "onUndo: triggered");
         //allows to go back one placed tile at a time
         if (!placedTiles.empty()) {
-            /*we needed to add a condition to make sure the button wouldn't
-             crash the app once all of the letters returned to the stack, making sure the stack
-            was not empty was the easiest fix for this issue*/
+//            /*we needed to add a condition to make sure the button wouldn't
+//             crash the app once all of the letters returned to the stack, making sure the stack
+//            was not empty was the easiest fix for this issue*/
             placedTiles.pop().moveToViewGroup(stackedLayout);
-            //pop off from top of stack LIFO
-
-           // tile.moveToViewGroup(stackedLayout);
-            //would like to return this to change the conditons to check the view groups
-            // for each word instead of the stack
+//            //pop off from top of stack LIFO
+//
+//            tile.moveToViewGroup(stackedLayout);
+//            //would like to return this to change the conditons to check the view groups
+//            // for each word instead of the stack
+//
 
         }
         return true;
     }
 
-    public void winCondition() {
+    public void winCondition(View v) {
+//        Log.d("win", "winCondition: view " + v);
         //extension milestone
         //once all of the tiles are placed check if player won
+        dragWord1 = "";
+        dragWord2 = "";
         TextView messageBox = findViewById(R.id.message_box);
-        if (word1 == dragWord1 && word2 == dragWord2) {
-            //if both words match there original selfs
-            messageBox.setText("You Win!!!" + word1 + "" + word2);
+        if (v == word1LinearLayout || v == findViewById(R.id.check)) {
+            dragWord1 += word1;
+            dragWord2 += word2;
+        }
 
+        Log.d("win", "winCondition: " + dragWord1 + " " + dragWord2 );
+
+        if ((word1 == dragWord1 && word2 == dragWord2) || (word2 == dragWord1 && word1 == dragWord2)) {
+            //if both words match there original selfs
+            messageBox.setText("You Win!! !" + word1 + " " + word2);
         } else if (words.contains(dragWord1) || words.contains(dragWord2)) {
             //if either word are in the list
-            messageBox.setText("look you found different words" + word1 + "" + word2);
+            messageBox.setText("look you found different words " + word1 + " " + word2);
         } else {
             messageBox.setText("Can you find the words you're looking forrrrrrr");
         }

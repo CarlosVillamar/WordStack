@@ -1,153 +1,153 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-MERGED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+MERGED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
 	package
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:18:5-42
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:18:5-42
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:1-35:12
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:1-35:12
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:17:11-69
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:17:11-69
 application
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:20:5-33:19
-MERGED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:25:5-29:19
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:20:5-33:19
+MERGED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:23:9-41
 	android:icon
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:22:9-43
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:22:9-56
 	android:allowBackup
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:25:9-40
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:25:9-40
 activity#com.google.engedu.wordstack.MainActivity
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:26:9-32:20
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:26:9-32:20
 	android:name
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:26:19-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:27:13-31:29
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:26:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml:30:27-74
 uses-sdk
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/user/Desktop/AndroidClasses/WordStackGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos/Desktop/WordStack/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/55d454bd28e4c4b0799c605fce5d7c0a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f852bb3fb61bca9f9025f51e6941df9e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/705ad72707d7bc7d03fd45e8c53d3b4c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c2415703f7ea2825f55dd9ccaed3a4b0/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c91b2b1ebdcf8cf69fe665c0fc193f13/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/f9498961ce39b6323c59272cb47d8941/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/61a6b245042d62a1d52a7cce06df1847/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/4356df5043114e6ab9248545b5076e35/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/7a4e9cd546ae336a2c81242eeec1c52c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/679a6d901407ebc7a6ac011bc1f65e22/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/145dc877b6305da27d5f8ad7bdb54417/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/f6ded8e81fd79b37e6b473db0d9cb18d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/963543d6e3590da5733eec4a8371bad1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/86aee2b00fdd769eaf9ade671191a6e2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/2742ab2a88b74de55d5cd074ef40250a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/b8a30879142e3d38fb92f868ae51d224/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/8cc276a51ab455c75963ab9ea7784f02/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c753132e6418ff2d86ffcc64b0e42f80/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/df89be60d5cd546ca30556665507432b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.0.2] /Users/user/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/42de9810d21f073d7e21687f878f27ea/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.0.2] /home/carlos/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/bf86c36065f08123c5dc7332a4ccbf25/AndroidManifest.xml:27:13-51

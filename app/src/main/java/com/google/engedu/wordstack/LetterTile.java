@@ -38,8 +38,10 @@ public class LetterTile extends android.support.v7.widget.AppCompatTextView {
         setTextAlignment(TEXT_ALIGNMENT_CENTER);
         setHeight(TILE_SIZE);
         setWidth(TILE_SIZE);
-        setTextSize(30);
+        setTextSize(25);
         setBackgroundColor(Color.rgb(255, 255, 200));
+
+
     }
 
     public void moveToViewGroup(ViewGroup targetView) {
@@ -70,6 +72,8 @@ public class LetterTile extends android.support.v7.widget.AppCompatTextView {
 
 
     public void freeze() {
+        setBackgroundColor(Color.rgb(255, 255, 200));
+        setTextColor(Color.BLACK);
         frozen = true;
     }
 
@@ -82,14 +86,18 @@ public class LetterTile extends android.support.v7.widget.AppCompatTextView {
         if(!frozen&&motionEvent.getAction()==MotionEvent.ACTION_DOWN){
             startDrag(ClipData.newPlainText("",""),
                     new View.DragShadowBuilder(this),this,0);
+            setBackgroundColor(Color.parseColor("#46070d"));
+            setTextColor(Color.WHITE);
+
 
         }else if(frozen&&motionEvent.getAction()==MotionEvent.ACTION_DOWN){
             //allows tiles to be re-placed once they are placed in one of the text views in the game
             startDrag(ClipData.newPlainText("",""),
                     new View.DragShadowBuilder(this),this,0);
-
-
+            setBackgroundColor(Color.parseColor("#46070d"));
+            setTextColor(Color.WHITE);
         }
+
         return super.onTouchEvent(motionEvent);
     }
 }
