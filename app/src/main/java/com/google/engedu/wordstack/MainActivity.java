@@ -55,13 +55,15 @@ public class MainActivity extends AppCompatActivity {
     Stack<LetterTile> placedTiles = new Stack<>();
     View word1LinearLayout, word2LinearLayout;
     Activity activity = getParent();
-
+    TextView messageBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AssetManager assetManager = getAssets();
+        messageBox = findViewById(R.id.message_box);
+
 
         try {
             InputStream inputStream = assetManager.open("words.txt");
@@ -84,12 +86,12 @@ public class MainActivity extends AppCompatActivity {
         verticalLayout.addView(stackedLayout, 3);
 
         word1LinearLayout = findViewById(R.id.word1);
-        //word1LinearLayout.setOnTouchListener(new TouchListener());
         word1LinearLayout.setOnDragListener(new DragListener());
+        //word1LinearLayout.setOnTouchListener(new TouchListener());
 
         word2LinearLayout = findViewById(R.id.word2);
-        //word2LinearLayout.setOnTouchListener(new TouchListener());
         word2LinearLayout.setOnDragListener(new DragListener());
+        //word2LinearLayout.setOnTouchListener(new TouchListener());
 
         if(activity == null){
             verticalLayout.setVisibility(View.generateViewId());
@@ -195,6 +197,12 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("start game", "onCreate: "+word1 + " "+word2);
 
+        if (view == word1LinearLayout || view ==findViewById(R.id.start_button)) {
+            dragWord1 += word1;
+            dragWord2 += word2;
+            Log.d("on Start", "onStartGame: if triggered ");
+        }
+
         //counters are needed for each word to compare word length
         int word1Counter = 0;
         int word2Counter = 0;
@@ -214,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Toast.makeText(getBaseContext(), "Scrambled Word " + wordScrambled, Toast.LENGTH_SHORT).show();
-        //messageBox.setText(wordScrambled);
+        messageBox.setText(wordScrambled);
 
         for (int i = 0; i<= wordScrambled.length()-1;i++) {
             //Allows for each character with in the scrambled word to be placed in a stack one
@@ -229,6 +237,7 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean onUndo(View view) {
         Log.d("undo", "onUndo: triggered");
+        //TODO: addess this method
         //allows to go back one placed tile at a time
         if (!placedTiles.empty()) {
 //            /*we needed to add a condition to make sure the button wouldn't
@@ -247,27 +256,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void winCondition(View v) {
-//        Log.d("win", "winCondition: view " + v);
+        Log.d("win", "winCondition: view " + v);
         //extension milestone
-        //once all of the tiles are placed check if player won
-        dragWord1 = "";
-        dragWord2 = "";
-        TextView messageBox = findViewById(R.id.message_box);
-        if (v == word1LinearLayout || v == findViewById(R.id.check)) {
-            dragWord1 += word1;
-            dragWord2 += word2;
-        }
+        //once all of the tiles are placed check if player w
+        //TODO: the issue with the if statements below
+
+        if(v ==word1LinearLayout || v ==word2LinearLayout || v == findViewById(R.id.check) ) {
 
         Log.d("win", "winCondition: " + dragWord1 + " " + dragWord2 );
 
-        if ((word1 == dragWord1 && word2 == dragWord2) || (word2 == dragWord1 && word1 == dragWord2)) {
-            //if both words match there original selfs
-            messageBox.setText("You Win!! !" + word1 + " " + word2);
-        } else if (words.contains(dragWord1) || words.contains(dragWord2)) {
-            //if either word are in the list
-            messageBox.setText("look you found different words " + word1 + " " + word2);
-        } else {
-            messageBox.setText("Can you find the words you're looking forrrrrrr");
+            if ((word1 == dragWord1 && word2 == dragWord2) || (word2 == dragWord1 && word1 == dragWord2)) {
+                //Do both words match
+                messageBox.setText("You Win!! !" + word1 + " " + word2);
+            } else if (words.contains(dragWord1) || words.contains(dragWord2)) {
+                //if either word are in the list
+                messageBox.setText("looks like you found different words than originally spawned good job");
+            }
+        else if(words.contains(dragWord1)){
+
+        }else if (words.contains(dragWord2)){
+
+        }
+        else {
+            messageBox.setText("woops try again");
+        }
         }
     }
 }
