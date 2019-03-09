@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/carlos/Desktop/WordStack/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/user/Desktop/WordStack/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/fe41de83211d6aaae4fc6068484540de/res/values-v24/values-v24.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/fef11d0a819f032c6d1b57da3465dfb7/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                },
+                {
+                    "source": "/Users/user/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/73a09c4cfce68b5d60a748139580abe0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "619,685,746,812",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "680,741,807,874"
-                    }
-                },
-                {
-                    "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
                     }
                 }
             ]

@@ -1,4 +1,0 @@
-#Tue Mar 20 01:47:41 EDT 2018
-base.0=/Users/user/Desktop/AndroidClasses/WordStackGame/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

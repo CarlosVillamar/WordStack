@@ -1,4 +1,0 @@
-#Thu Mar 07 20:58:23 EST 2019
-base.0=/home/carlos/Desktop/WordStack/app/build/intermediates/transforms/dexMerger/debug/3
-path.0=classes.dex
-renamed.0=classes.dex
