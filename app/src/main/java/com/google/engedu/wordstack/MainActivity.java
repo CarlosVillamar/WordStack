@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class TouchListener implements View.OnTouchListener {
-  /**
-   * Class not currently in use
-   * */
+        /**
+         * Class not currently in use
+         * */
         @Override
         public boolean onTouch(View v, MotionEvent event) {
             if (event.getAction() == MotionEvent.ACTION_DOWN && !stackedLayout.empty()) {
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("start game", "onCreate: "+word1 + " "+word2);
 
-        if (view == word1LinearLayout || view ==findViewById(R.id.start_button)) {
+        if (view ==findViewById(R.id.start_button)) {
             dragWord1 += word1;
             dragWord2 += word2;
             Log.d("on Start", "onStartGame: if triggered ");
@@ -237,17 +237,18 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean onUndo(View view) {
         Log.d("undo", "onUndo: triggered");
-        //TODO: addess this method
+        //TODO: address this method
         //allows to go back one placed tile at a time
         if (!placedTiles.empty()) {
-//            /*we needed to add a condition to make sure the button wouldn't
-//             crash the app once all of the letters returned to the stack, making sure the stack
-//            was not empty was the easiest fix for this issue*/
+
+            /**we needed to add a condition to make sure the button wouldn't
+             crash the app once all of the letters returned to the stack, making sure the stack
+             was not empty was the easiest fix for this issue*/
             placedTiles.pop().moveToViewGroup(stackedLayout);
 //            //pop off from top of stack LIFO
 //
 //            tile.moveToViewGroup(stackedLayout);
-//            //would like to return this to change the conditons to check the view groups
+//            //would like to return this to change the conditions to check the view groups
 //            // for each word instead of the stack
 //
 
@@ -261,25 +262,22 @@ public class MainActivity extends AppCompatActivity {
         //once all of the tiles are placed check if player w
         //TODO: the issue with the if statements below
 
-        if(v ==word1LinearLayout || v ==word2LinearLayout || v == findViewById(R.id.check) ) {
+        if(v ==word1LinearLayout || v == word2LinearLayout || v == findViewById(R.id.check) ) {
+                Log.d("win", "winCondition: drag words " + dragWord1 + " " + dragWord2 + " original words " + word1 + " " + word2);
+                //this works the conditions do not trigger
 
-        Log.d("win", "winCondition: " + dragWord1 + " " + dragWord2 );
-
-            if ((word1 == dragWord1 && word2 == dragWord2) || (word2 == dragWord1 && word1 == dragWord2)) {
+            if (word1.equals(dragWord1) && word2.equals(dragWord2))  {
                 //Do both words match
                 messageBox.setText("You Win!! !" + word1 + " " + word2);
-            } else if (words.contains(dragWord1) || words.contains(dragWord2)) {
-                //if either word are in the list
+            } else if(words.contains(dragWord1)){
+                messageBox.setText("looks like you found different words than originally spawned good job");
+
+            }else if (words.contains(dragWord2)){
                 messageBox.setText("looks like you found different words than originally spawned good job");
             }
-        else if(words.contains(dragWord1)){
-
-        }else if (words.contains(dragWord2)){
-
-        }
-        else {
-            messageBox.setText("woops try again");
-        }
+            else {
+                messageBox.setText("woops try again");
+            }
         }
     }
 }
