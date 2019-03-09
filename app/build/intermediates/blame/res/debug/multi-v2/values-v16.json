@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/carlos/Desktop/WordStack/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/Users/user/Desktop/WordStack/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/b0a5cac636e40083269213e9e846de95/res/values-v16/values-v16.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/fef11d0a819f032c6d1b57da3465dfb7/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/carlos/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7af683f90ef9cdb197bc17dfb73d0fee/res/values-v16/values-v16.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/b957dd6a8ac136d1745d2d70c5029163/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
