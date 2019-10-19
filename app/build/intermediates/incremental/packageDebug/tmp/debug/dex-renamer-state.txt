@@ -1,7 +1,7 @@
-#Sat Mar 09 00:41:07 EST 2019
-base.0=/Users/user/Desktop/WordStack/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Sat Oct 19 00:58:29 EDT 2019
+base.0=/home/carlos/Desktop/WordStack/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/user/Desktop/WordStack/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.1=/home/carlos/Desktop/WordStack/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
