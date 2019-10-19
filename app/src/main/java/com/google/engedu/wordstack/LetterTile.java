@@ -23,9 +23,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-public class LetterTile extends TextView {
+public class LetterTile extends android.support.v7.widget.AppCompatTextView {
 
     public static final int TILE_SIZE = 150;
     private Character letter;//tests

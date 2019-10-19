@@ -16,20 +16,13 @@
 package com.google.engedu.wordstack;
 
 import android.app.Activity;
-import android.content.ClipData;
 import android.content.res.AssetManager;
 import android.graphics.Color;
-import android.service.quicksettings.Tile;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.DragEvent;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -49,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public static final int LIGHT_GREEN = Color.rgb(200, 255, 200);
     private ArrayList<String> words = new ArrayList<>();
     private Random random = new Random();
-    private StackedLayout stackedLayout;
-    private String word1, word2, dragWord1 = " ", dragWord2 = " ";
+    String word1, word2, dragWord1 = " ", dragWord2 = " ";
+    StackedLayout stackedLayout;
     ViewGroup word1Layout, word2Layout;
     Stack<LetterTile> placedTiles = new Stack<>();
     View word1LinearLayout, word2LinearLayout;
@@ -63,6 +56,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         AssetManager assetManager = getAssets();
         messageBox = findViewById(R.id.message_box);
+
+        LinearLayout verticalLayout = findViewById(R.id.vertical_layout);
+        stackedLayout = new StackedLayout(this);
+        verticalLayout.addView(stackedLayout, 3);
+
+        word1LinearLayout = findViewById(R.id.word1);
+        word1LinearLayout.setOnDragListener(new DragListener(this));
+        //word1LinearLayout.setOnTouchListener(new TouchListener());
+
+        word2LinearLayout = findViewById(R.id.word2);
+        word2LinearLayout.setOnDragListener(new DragListener(this));
+        //word2LinearLayout.setOnTouchListener(new TouchListener());
+        messageBox.setText("Game started");
 
 
         try {
@@ -81,93 +87,12 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         }
 
-        LinearLayout verticalLayout = (LinearLayout) findViewById(R.id.vertical_layout);
-        stackedLayout = new StackedLayout(this);
-        verticalLayout.addView(stackedLayout, 3);
 
-        word1LinearLayout = findViewById(R.id.word1);
-        word1LinearLayout.setOnDragListener(new DragListener());
-        //word1LinearLayout.setOnTouchListener(new TouchListener());
+        if(isDestroyed()||activity == null){
 
-        word2LinearLayout = findViewById(R.id.word2);
-        word2LinearLayout.setOnDragListener(new DragListener());
-        //word2LinearLayout.setOnTouchListener(new TouchListener());
-
-        if(activity == null){
             verticalLayout.setVisibility(View.generateViewId());
-
         }
 
-
-    }
-
-    private class TouchListener implements View.OnTouchListener {
-        /**
-         * Class not currently in use
-         * */
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-            if (event.getAction() == MotionEvent.ACTION_DOWN && !stackedLayout.empty()) {
-                LetterTile tile = (LetterTile) stackedLayout.peek();
-                tile.moveToViewGroup((ViewGroup) v);
-
-                if (stackedLayout.empty()) {
-                    TextView messageBox = (TextView) findViewById(R.id.message_box);
-                    messageBox.setText(word1 + " " + word2);
-                }
-                placedTiles.push(tile);
-                return true;
-
-
-            }
-
-
-            return false;
-        }
-    }
-
-    private class DragListener implements View.OnDragListener {
-
-        public boolean onDrag(View v, DragEvent event) {
-            int action = event.getAction();
-            switch (event.getAction()) {
-                case DragEvent.ACTION_DRAG_STARTED:
-                    //when tile is moved
-                    v.setBackgroundColor(LIGHT_BLUE);
-                    v.invalidate();
-                    return true;
-                case DragEvent.ACTION_DRAG_ENTERED:
-                    //when tile enters the layout area
-                    v.setBackgroundColor(LIGHT_GREEN);
-                    v.invalidate();
-                    return true;
-                case DragEvent.ACTION_DRAG_EXITED:
-                    //when tile exits the layout area
-                    v.setBackgroundColor(LIGHT_BLUE);
-                    v.invalidate();
-                    return true;
-                case DragEvent.ACTION_DRAG_ENDED:
-                    //when tile is placed
-                    v.setBackgroundColor(Color.WHITE);
-                    v.invalidate();
-                    return true;
-                case DragEvent.ACTION_DROP:
-                    // Dropped, reassign Tile to the target Layout
-                    LetterTile tile = (LetterTile) event.getLocalState();
-                    tile.moveToViewGroup((ViewGroup) v);
-
-
-                    if (stackedLayout.empty()) {
-                        /*TextView messageBox = (TextView) findViewById(R.id.message_box);
-                        messageBox.setText(word1 + " " + word2);*/
-
-                        winCondition(v);
-                    }
-
-                    return true;
-            }
-            return false;
-        }
     }
 
     public boolean onStartGame(View view) {
@@ -177,8 +102,7 @@ public class MainActivity extends AppCompatActivity {
         //setting up required attributes for this button
         word1Layout = findViewById(R.id.word1);
         word2Layout = findViewById(R.id.word2);
-        TextView messageBox = (TextView) findViewById(R.id.message_box);
-        messageBox.setText("Game started");
+        TextView messageBox = findViewById(R.id.message_box);
         String wordScrambled = "";
 
         //clearing out the previous game with each start press
@@ -197,10 +121,15 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("start game", "onCreate: "+word1 + " "+word2);
 
-        if (view ==findViewById(R.id.start_button)) {
+        if (view ==findViewById(R.id.start_button)&&!dragWord1.isEmpty()&&!dragWord2.isEmpty()) {
+            dragWord1 ="";
+            dragWord2 ="";
             dragWord1 += word1;
             dragWord2 += word2;
             Log.d("on Start", "onStartGame: if triggered ");
+        }else {
+            dragWord1 += word1;
+            dragWord2 += word2;
         }
 
         //counters are needed for each word to compare word length
@@ -235,25 +164,17 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public boolean onUndo(View view) {
+    public void onUndo(View view) {
         Log.d("undo", "onUndo: triggered");
         //TODO: address this method
         //allows to go back one placed tile at a time
-        if (!placedTiles.empty()) {
-
-            /**we needed to add a condition to make sure the button wouldn't
-             crash the app once all of the letters returned to the stack, making sure the stack
-             was not empty was the easiest fix for this issue*/
-            placedTiles.pop().moveToViewGroup(stackedLayout);
-//            //pop off from top of stack LIFO
-//
-//            tile.moveToViewGroup(stackedLayout);
-//            //would like to return this to change the conditions to check the view groups
-//            // for each word instead of the stack
-//
-
-        }
-        return true;
+        //clearing out the previous game with each start press
+        word1Layout.removeAllViews();
+        word2Layout.removeAllViews();
+        stackedLayout.clear();
+        messageBox.setText("Game wiped hit start to play again");
+        dragWord1 ="";
+        dragWord2 ="";
     }
 
     public void winCondition(View v) {
@@ -266,17 +187,16 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("win", "winCondition: drag words " + dragWord1 + " " + dragWord2 + " original words " + word1 + " " + word2);
                 //this works the conditions do not trigger
 
-            if (word1.equals(dragWord1) && word2.equals(dragWord2))  {
-                //Do both words match
-                messageBox.setText("You Win!! !" + word1 + " " + word2);
-            } else if(words.contains(dragWord1)){
-                messageBox.setText("looks like you found different words than originally spawned good job");
-
-            }else if (words.contains(dragWord2)){
-                messageBox.setText("looks like you found different words than originally spawned good job");
+            if(word1.equals(dragWord1) && word2.equals(dragWord2))
+                messageBox.setText("You win! " + word1 + " " + word2);
+            else if(words.contains(dragWord1) && words.contains(dragWord2)){
+                messageBox.setText("You found alternative words! " + dragWord1 + " " + dragWord2);
             }
-            else {
-                messageBox.setText("woops try again");
+//            else if (!word1.equals(dragWord1) || !word2.equals(dragWord2)){
+//                messageBox.setText("Close try again");
+//            }
+            else{
+                messageBox.setText("Try again");
             }
         }
     }
